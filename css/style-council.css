@@ -1,0 +1,35 @@
+.member{
+    
+    background-color: rgb(138, 166, 112);
+    margin: 1em;
+    padding: 1em;
+    -webkit-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+    -moz-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+    box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+    width: 93%;
+}
+
+#main{
+    width: auto;
+    background-color: gray;
+    -webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+}
+
+.image{
+    float: left;
+    margin-right: 1em;
+}
+.image img{
+    border-radius: 10px;
+}
+
+.name{
+    text-align: center;
+}
+
+.info{
+    justify-content: space-around;
+    text-align: left;
+}

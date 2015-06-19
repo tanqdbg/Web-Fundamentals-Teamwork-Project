@@ -1,0 +1,61 @@
+/*hide the result image*/
+.result{
+	display: none;
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	width: 85%;
+}
+/*show the result pic*/
+.result.show{
+	display: block;
+}
+
+.navigation>nav>ul>li>span>a:after{
+	content: " \25BC";
+}
+
+#wrapper{
+	width: 100%;
+	background-color: gray;
+	-webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+}
+
+form{
+	background-color: rgb(138, 166, 112);
+	margin: 2em;
+	-webkit-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+	-moz-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+	box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+	padding:  1em;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.column{
+	float: left;
+	margin-right: 35px;
+}
+input{
+	vertical-align: sub;
+}
+
+footer{
+	background-color: rgb(133, 187, 101);
+}
+
+video{
+	position: fixed;
+	top:10%;
+	left:1%;
+	width:100%;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SoftUni Illuminati -Team Nectarine</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="images/site-icon/siteicon.ico">
+	<link href="css/style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/style-home.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<!-- header starts here -->
+		<header>
+			<div class="header navigation">
+				<div id="logo">
+					<a href="index.html" title="SoftUni Home"><img src="images/site-logo/logo-nocrown.png" alt="Logo goes here" /></a>
+				</div>
+				<div id="menu">
+					<button id="btn-menu" onclick="ShowMenu('menu')" >Menu</button>	
+					<nav>
+						<ul>
+							<li><a href="pages/mission.html">Mission</a></li>
+							<li onclick="ShowMenu('sub-menu')" >
+								<span><a href="#">Doctrines</a></span>
+								<ul id="sun-menu">
+									<li><a href="pages/symbols.html">Symbols</a></li>
+									<li><a href="pages/finances.html">Finances</a></li>
+									<li><a href="pages/religion.html">Religion</a></li>
+									<li><a href="pages/mind-control.html">Mind control</a></li>
+								</ul>
+							</li>
+							<li><a href="pages/events.html">Events</a></li>
+							<li><a href="pages/council-of-13.html">The Council of 13</a></li>
+							<li><a href="pages/application-form.html">Application form</a></li>
+							<li><a href="https://softuni.bg/">Training grounds</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- header ends here -->
+		<main id="main">
+			<section>
+				<div  class="title"><a href="pages/mission.html" title="See more about Software Illuminati's mission"><h3>Mission</h3></a></div>
+				Different sources claim that Svelin Nakov and his team were given a mission. They are supposed to educate and train several people so as to establish a New World Order (NWO), which would include the abolishment of all monarchial government and religions. The use of a One World Government would allow those with the mental abilities (The Illuminati) to govern the world.
+			</section>
+			<section class="double" >
+				<video width="500" height="300" controls>
+					<source src="videos/nakov.mp4" type="video/mp4" >
+				</video>
+			</section>
+			<section class="double">
+				<div  class="title"><a href="pages/events.html" title="See more upcoming events">Upcoming Events</a></div>
+				<div>
+					<img src="images/img-events/html-css-js2.jpg" alt="">
+					<h3>Web Fundamentals - Exam</h3>
+					In our days of information, everything should have a web representation. In this course we will lern how to build a basic website, to show and share our ideas.
+				</div>
+
+			</section>
+			<section class="link" onclick="window.open('pages/application-form.html', '_blank');">
+				<img class="right" src="images/img-home/form-icon.png" alt="">
+				<div>
+					<div class="title">Want to join us?</div>
+					<div class="description">Make the first step to try to join us. <br> Fill the application form.</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>Copyright &copy; Created and designed by Team Nectarine. All rights are reserved.</div>
+			<div id="validators">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+				<img src="images/footer-validators/html5-validator-icon.png" alt="HTML5 Validator icon"/>
+				</a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+					<img src="images/footer-validators/css3-validator-icon.png" alt="CSS3 Validator icon"/>
+				</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
